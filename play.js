@@ -4,7 +4,7 @@ const chalk = require('chalk');
 const logic = require('./logic');
 
 
-const game = ` ${       logic.options[0]},\n              ${logic.options[1]}, \n                      ${logic.options[2]}!`;
+const game = ` ${logic.options[0]},\n              ${logic.options[1]}, \n                      ${logic.options[2]}!`;
 console.log(chalk.blue(figlet.textSync(game)));
 
 const questions = [
